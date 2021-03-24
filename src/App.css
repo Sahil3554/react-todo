@@ -1,0 +1,133 @@
+*{
+  text-align: center;
+  font-family: cursive;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.Main-div {
+  background-color: #61dafb;
+  /* width: 56vw; */
+  min-height: 80vh;
+  border-radius: 15px;  
+  box-shadow: 5px 5px 55px 18px yellow;
+  margin: 30px;
+}
+
+.Main-div h1{
+  background-color: green;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.Main-div input{
+  border: none;
+  /* color: transparent; */
+  outline: none;
+  background: transparent;
+  border-bottom: 2px solid green;
+  padding: 2px;
+  font-size: 15px;
+  margin: 18px;
+  width: fit-content;
+  font-size: 16px;
+}
+.Main-div button{
+  border-radius: 50px;
+  background-color: #8566aa;
+  outline: none;
+  padding: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  color: #fff;
+  border: none;
+  font-weight: 900;
+  margin-right: 10px;
+}
+.Main-div button:hover{
+  background-color: indigo;
+}
+
+.Main-div ol{
+  list-style-type: none;
+  text-transform: capitalize;
+  
+}
+.Main-div ol li{
+  /* margin-left: 20px; */
+  font-weight: bolder;
+  margin-right: 57px;
+  color: green;
+  margin-bottom: 2px;
+  margin-left: 10px;
+  text-shadow: 7px 3px 3px rgb(240, 185, 33);
+  letter-spacing: 3px;
+}
+.Main-div ol li:hover{
+  color: red;
+  /* #61dafb */
+  /* box-shadow: 5px 5px 55px 18px yellow; */
+
+}
+.todo-list{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7px;  
+}
+.todo-list i{
+  border-radius: 50px;
+  background-color: #8566aa;
+  padding: 3px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.todo-list i:hover{
+  background-color: indigo;
+}
+/* .Main-div ol li{
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: green;
+  font-weight: 800;
+} */
+@media (min-width:990px){
+  .Main-div h1{
+    background-color: red;
+  }
+}
